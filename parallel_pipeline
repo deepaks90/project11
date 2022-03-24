@@ -8,7 +8,7 @@ pipeline {
                         label "windows"
                     }
                     steps {
-                      "echo parallel executions test"
+                      echo "parallel executions test"
                     }
                    
                 }
@@ -17,7 +17,7 @@ pipeline {
                         label "linux"
                     }
                     steps {
-                       "echo parallel executions test2"
+                       echo "parallel executions test2"
                     }
                   
                 }
