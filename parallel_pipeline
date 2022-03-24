@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run Tests') {
             parallel {
-                stage('Test On Windows') {
+                stage('Test1') {
                     agent {
                         label "java"
                     }
@@ -12,7 +12,7 @@ pipeline {
                     }
                    
                 }
-                stage('Test On Linux') {
+                stage('Test2') {
                     agent {
                         label "java"
                     }
